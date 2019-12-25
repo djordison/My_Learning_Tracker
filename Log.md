@@ -39,7 +39,7 @@ Format: MOOC
 
 Notes: Excellent course, learned basics of series and dataframe objects, Jupyter notebooks, basic visualizations within python, and a few basics of ML (techniques, types, supervised vs unsupervised learning, scoring). Lectures were OK, most value came from example notebooks and working through problems. For future MOOCs, consider reading the transcript of leactures to save time. The structure helped shape the learning curve. Final project: Analysis of Canadian Federal election candidates for non-political features. 
 
-[Published to git.](https://github.com/djordison/DSE200x)
+[Published to Git.](https://github.com/djordison/DSE200x)
 
 ### Think Python (Orielly)
 Format: Book
