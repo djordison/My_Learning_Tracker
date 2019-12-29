@@ -1,5 +1,13 @@
 # Learning Log
 
+## 2020
+
+### 2019/01/01 Mode SQL tutorial advanced
+Format: Interative website/tutorial
+
+Notes: Completion of the advanced module, with heavy emphasis on the string operations as well as nested queries. 
+
+
 ## 2019 - No dates (chronological)
 
 
