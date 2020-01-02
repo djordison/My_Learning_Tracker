@@ -2,10 +2,10 @@
 
 ## 2020
 
-### 2019/01/01 Mode SQL tutorial advanced
+### 2019/01/02 Mode SQL tutorial advanced
 Format: Interative website/tutorial
 
-Notes: Completion of the advanced module, with heavy emphasis on the string operations as well as nested queries. 
+Notes: Completion of the advanced module, with heavy emphasis on the string operations as well as nested queries. Some of these were quite challenging. I found it best for comprehension to use the solutions and build the queries piece by piece, starting with sub-quiries and modifying until working, modifying to allow for understanding, then building outwards. I saved some of the more challenging and applicable queries to Git to allow for future reference for things like A/B testing of lift, categorizing user sessions, and for reference for LAG/LEAD/WINDOWS/PARTITIONS/etc.
 
 
 ## 2019 - No dates (reverse chronological)
