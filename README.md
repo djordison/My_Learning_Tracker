@@ -2,7 +2,8 @@
 
 Log of professional development and data science skills, learning, resources, highlights, and anything else noteworthy. 
 
-##2020/04/04##
+# 2020/04/04
+
 Completion of personal project on canadian CPI vs wages vs individual costs complete. 
 
 Technical skills:
