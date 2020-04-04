@@ -4,7 +4,7 @@ Log of professional development and data science skills, learning, resources, hi
 
 ### 2020/04/04
 
-Completion of personal project on canadian CPI vs wages vs individual costs complete. 
+Completion of personal project on canadian CPI vs wages vs individual costs complete. Committed to Github.
 
 Technical skills:
 
