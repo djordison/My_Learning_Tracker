@@ -24,6 +24,8 @@ Overall the conclusion can be that other than for some specific categories, cons
 
 Mini-project completed to learn to scrape web for results on topic/geo/recency.
 
+Tutorial followed: https://towardsdatascience.com/current-google-search-packages-using-python-3-7-a-simple-tutorial-3606e459e0d4
+
 Two methods learned:
 
 * Googlesearch - fast, easy, no API required. Limited to pulling URLs only, only from google mainpage search results, and also a mandatory 2 second delay between queries.
