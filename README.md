@@ -6,11 +6,11 @@ Log of professional development and data science skills, learning, resources, hi
 
 Completion of personal project on canadian CPI vs wages vs individual costs complete. Committed to Github.
 
-Technical skills:
+*Technical skills:*
 
 Learned additional functionality of Seaborn including FacetGrid, and use of dataframe feature to allow for use of 'Hue' within a plot. Installed and learned to use Tabulate for in-notebook reporting. Experienced difficulty with labelling of lines on graphs directly coupled with very busy/non intuative line graphs. Take-away is to limit features to 5-7 items, or use color coding to show 3rd dimensions.
 
-Project findings:
+*Project findings:*
 
 Overall, increase in cost of essential and non essentials has been lower than that of median average wages. The official CPI has seen an incerase in 145% while wages growed 171% over the same period.
 
@@ -25,5 +25,7 @@ Overall the conclusion can be that other than for some specific categories, cons
 Mini-project completed to learn to scrape web for results on topic/geo/recency.
 
 Two methods learned:
-> Googlesearch - fast, easy, no API required. Limited to pulling URLs only, only from google mainpage search results, and also a mandatory 2 second delay between queries.
-> Googlequery - Access custom search via google API. More involved, requires setting up an API. Can be used to pull from any website via customsearch. Also able to get metadata, as well as some html.
+
+* Googlesearch - fast, easy, no API required. Limited to pulling URLs only, only from google mainpage search results, and also a mandatory 2 second delay between queries.
+
+* Googlequery - Access custom search via google API. More involved, requires setting up an API. Can be used to pull from any website via customsearch. Also able to get metadata, as well as some html.
