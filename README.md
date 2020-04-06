@@ -31,3 +31,9 @@ Two methods learned:
 * Googlesearch - fast, easy, no API required. Limited to pulling URLs only, only from google mainpage search results, and also a mandatory 2 second delay between queries.
 
 * Googlequery - Access custom search via google API. More involved, requires setting up an API. Can be used to pull from any website via customsearch. Also able to get metadata, as well as some html.
+
+### 2020/05/05
+
+Build a local settings.py file to hold private API and google CSE keys, modified prior workbook to use this file.
+
+
