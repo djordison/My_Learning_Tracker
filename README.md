@@ -72,8 +72,8 @@ https:// Root URL/API url/API endpoint(action)/?(indicated following is params)/
 
 *Tools:* 
 
-cURL, Postman, browser via extension
+* cURL, Postman, browser via extension
 
-Look for local libraries (python etc) for any substaintial service. This will make life easier to interact with the API.
+* Look for local libraries (python etc) for any substaintial service. This will make life easier to interact with the API.
 
 Also did some work with JSON files, converting with load(s) and dump(s) to learn to convert JSON files into str.
