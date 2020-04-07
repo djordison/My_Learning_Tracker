@@ -50,19 +50,15 @@ HTTP status codes:
 
 |Code | Meaning            |
 |-----|:-------------------|
-|2xx  | success            |
-|3xx  | redirect (success) |
-|4xx  | client errors      |
+|2xx  | Success            |
+|3xx  | Redirect (success) |
+|4xx  | Client errors      |
 |400  | Bad request        |
 |403  | Forbidden          |
-
-404 - Not found
-
-405 - Not allowed - GET a POSTable thing
-
-5xx - server error
-
-6xx - custom error
+|404  | Not found          |
+|405  | Not allowed        |
+|5xx  | Server error       |
+|6xx  | Custom error       |
 
 eXensible Markup Language vs JavaSscript Object Notationformatting
 Application Programming Interface
