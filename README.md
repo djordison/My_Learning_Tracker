@@ -58,6 +58,8 @@ HTTP status codes:
 eXensible Markup Language vs JavaSscript Object Notationformatting
 Application Programming Interface
 
+Authorization for GET/POST done via: inclusion in request, OAuth (3rd party service - the worst), ID/PW
+
 Anatomy of a GET request
 https:// Root URL/API url/API endpoint(action)/?(indicated following is params)/Param1&Param2
 
