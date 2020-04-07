@@ -48,7 +48,7 @@ API analagous to http between user/server. GET vs POST.
 
 HTTP status codes:
 
-2xx - success
+...2xx - success
 
 3xx - redirect (success)
 
