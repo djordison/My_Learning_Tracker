@@ -63,11 +63,7 @@ Authorization for GET/POST done via: inclusion in request, OAuth (3rd party serv
 
 Anatomy of a GET request:
 
-https:// 
-<div class = 'text-blue mb-2'>
-              Root URL
-              </div>
-              /API url/API endpoint(action)/?(indicated following is params)/Param1&Param2
+https:// <div class = "text-blue mb-">.Root URL</div>/API url/API endpoint(action)/?(indicated following is params)/Param1&Param2
 
 Tools: 
 
