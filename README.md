@@ -42,5 +42,27 @@ Attempted to set up a google analytics query API, but was unable to successfully
 
 https://docs.google.com/presentation/d/19bP_khVtanOgCmoEg8qKoLjhh01rz1TFuss12MFz96E/edit#slide=id.p
 
+Notes:
+API analagous to http between user/server. GET vs POST.
+HTTP status codes:
+2xx - success
+3xx - redirect (success)
+4xx - client errors
+400 - Bad request
+403 - Forbidden
+404 - Not found
+405 - Not allowed - GET a POSTable thing
+5xx - server error
+6xx - custom error
+
+eXensible Markup Language vs JavaSscript Object Notationformatting
+Application Programming Interface
+
+Anatomy of a GET request
+https:// Root URL/API url/API endpoint(action)/?(indicated following is params)/Param1&Param2
+
+Tools: cURL, Postman, browser via extension
+
+Look for local libraries (python etc) for any substaintial service. This will make life easier to interact with the API.
 
 
