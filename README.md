@@ -42,7 +42,7 @@ Attempted to set up a google analytics query API, but was unable to successfully
 
 https://docs.google.com/presentation/d/19bP_khVtanOgCmoEg8qKoLjhh01rz1TFuss12MFz96E/edit#slide=id.p
 
-*Notes:*
+**Notes:**
 
 API analagous to http between user/server. GET vs POST.
 
@@ -69,7 +69,7 @@ Anatomy of a GET request:
 
 https:// Root URL/API url/API endpoint(action)/?(indicated following is params)/Param1&Param2
 
-Tools: 
+*Tools:* 
 
 cURL, Postman, browser via extension
 
