@@ -60,8 +60,9 @@ HTTP status codes:
 |5xx  | Server error       |
 |6xx  | Custom error       |
 
-eXensible Markup Language vs JavaSscript Object Notationformatting
-Application Programming Interface
+e**X**ensible **M**arkup **L**anguage vs **J**ava**S**script **O**bject **N**otationformatting
+
+**A**pplication **P**rogramming **I**nterface
 
 Authorization for GET/POST done via: inclusion in request, OAuth (3rd party service - the worst), ID/PW
 
