@@ -48,6 +48,8 @@ API analagous to http between user/server. GET vs POST.
 
 HTTP status codes:
 
+|Code | Meaning            |
+|-----|:-------------------|
 |2xx  | success            |
 |3xx  | redirect (success) |
 |4xx  | client errors      |
