@@ -32,8 +32,15 @@ Two methods learned:
 
 * Googlequery - Access custom search via google API. More involved, requires setting up an API. Can be used to pull from any website via customsearch. Also able to get metadata, as well as some html.
 
-### 2020/05/05
+### 2020/04/06
 
 Build a local settings.py file to hold private API and google CSE keys, modified prior workbook to use this file.
+
+### 2020/04/07
+
+Attempted to set up a google analytics query API, but was unable to successfully get the OAuth2 script to work on the local machine. Will come back to this later. Need to understand background on API better, so read though:
+
+https://docs.google.com/presentation/d/19bP_khVtanOgCmoEg8qKoLjhh01rz1TFuss12MFz96E/edit#slide=id.p
+
 
 
