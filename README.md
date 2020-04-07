@@ -45,6 +45,7 @@ https://docs.google.com/presentation/d/19bP_khVtanOgCmoEg8qKoLjhh01rz1TFuss12MFz
 Notes:
 API analagous to http between user/server. GET vs POST.
 HTTP status codes:
+
 2xx - success
 3xx - redirect (success)
 4xx - client errors
@@ -63,7 +64,7 @@ Authorization for GET/POST done via: inclusion in request, OAuth (3rd party serv
 Anatomy of a GET request:
 
 https:// 
-<div class = 'text-blue mb-2>
+<div class = 'text-blue mb-2'>
               Root URL
               </div>
               /API url/API endpoint(action)/?(indicated following is params)/Param1&Param2
