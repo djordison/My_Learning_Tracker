@@ -60,10 +60,17 @@ Application Programming Interface
 
 Authorization for GET/POST done via: inclusion in request, OAuth (3rd party service - the worst), ID/PW
 
-Anatomy of a GET request
-https:// Root URL/API url/API endpoint(action)/?(indicated following is params)/Param1&Param2
+Anatomy of a GET request:
 
-Tools: cURL, Postman, browser via extension
+https:// 
+<div class = 'text-blue mb-2>
+              Root URL
+              </div>
+              /API url/API endpoint(action)/?(indicated following is params)/Param1&Param2
+
+Tools: 
+
+cURL, Postman, browser via extension
 
 Look for local libraries (python etc) for any substaintial service. This will make life easier to interact with the API.
 
