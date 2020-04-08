@@ -77,3 +77,13 @@ https:// Root URL/API url/API endpoint(action)/?(indicated following is params)/
 * Look for local libraries (python etc) for any substaintial service. This will make life easier to interact with the API.
 
 Also did some work with JSON files, converting with load(s) and dump(s) to learn to convert JSON files into str.
+
+### 2020/04/08
+
+Image recognition of clothing using Tensorflow/Keras. Committed to github.
+
+Download and use mnist_fashion. 60000 training/10000 test of clothing/footwear in 10 categories, 28x28 pixel image.
+
+Built prediction neural net to predict with accuracy 91% train, 88% test. ReLU activation, 3 layers sequential, optimizer 'Adam', losses crossentropy, metric accuracy.
+
+Reviewed userDoc for Keras to undestanding terminology, model & compiler. Overall seems fairly easy/intuative to use, documentation is good, although more research will be needed to understand loss functions, activations and metrics available through Keras.
