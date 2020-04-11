@@ -91,3 +91,11 @@ Reviewed userDoc for Keras to undestanding terminology, model & compiler. Overal
 ### 2020/04/10
 
 Continued work on image recognition of clothing. Implemented linear and quadratic SVM for comparison vs Sklearn libraries (with evaluate of c at 0.01/0.2/1/10/100). Neural net has the feature of seeing weights of probabilties of each outcome, this could be useful in real world applications (such as image recognition for self driving applications). Noted that quadratic SVM has an extremely long execute time.
+
+Uploaded to Github, wrote readme.
+
+#### 2020/04/11
+
+Read a few chapters in textbook "Interpretable machine learning", interesting points on how to score a given algorithm for interpretability (direct score ie: # of layers/tree depth vs looking at input vs outputs), as well as instances where you would want (high risk, new appliactions, impactful results) or not care about interpretability (basic regression, well understood, small scope problems).
+
+Completed tutorials on BeautifulSoup to scrape weather data from US and Canadian weather services, interpret the html, and import into a DataFrame for further analysis.
