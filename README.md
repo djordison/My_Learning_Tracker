@@ -1,6 +1,6 @@
 # My_Learning_Tracker
 
-Log of professional development and data science skills, learning, resources, highlights, and anything else noteworthy. 
+Log of professional development and data science skills, learning, resources, article/book notes highlights, and anything else noteworthy. 
 
 ### 2020/04/04
 
