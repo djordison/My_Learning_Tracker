@@ -100,7 +100,7 @@ Read a few chapters in textbook "Interpretable machine learning", interesting po
 
 Completed tutorials on BeautifulSoup to scrape weather data from US and Canadian weather services, interpret the html, and import into a DataFrame for further analysis.
 
-### 202004/12
+### 2020/04/12
 
 Completed a webscraping tutorial and used the methodology to use html parsing with BeautifulSoup4 to crawl a website for analysis. Project goal is to scrape 2000 ratings from each of IMBD and metacritic. 
 
