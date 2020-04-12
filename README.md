@@ -102,11 +102,13 @@ Completed tutorials on BeautifulSoup to scrape weather data from US and Canadian
 
 ### 2020/04/12
 
+__Project: Webscraping IMBD/Metacritic__
+
 Completed a webscraping tutorial and used the methodology to use html parsing with BeautifulSoup4 to crawl a website for analysis. Project goal is to scrape 2000 ratings from each of IMBD and metacritic. 
 
 It is worthwhile to examine the source websites, since this may mean as much as 4000 requests (~1 sec/request = ~hr total). A URL for advanced search was found at IMDB.com which had 50 titles with all desired information. This reduced the number of requests to 80, with custom URL requests to crawl site at random delay intervals between 1-15secs.
 
-__Scraping methodology used:__
+_Scraping methodology used:_
 1. Examine source for most efficient way to get max data on a single page
 2. Examine URL to see if iterative scraping will make sense at that page
 3. Scrape a single record and verify
@@ -116,21 +118,21 @@ __Scraping methodology used:__
 7. Complete formatting of dataframe
 8. Complete analysis of dataframe
 
-__Munging:__
+_Munging:_
 Year information was cleaned and converted to int. IMBD ratings were normalized for comparison.
 
-__Outcome:__
+_Outcome:_
 IMDB ratings tend to have a heavy central tendency around 71%, with a std of 7.3
 
 Metacritic ratings tend to have a more widely distributed score with a mean of 63%, and a std of 15.6. Metacritic ratings also shows relatively few ratings in the areas of 50% and 75%. Perhaps this is due to a tendency to avoid round quartile scores.
 
 Project was uploaded into Github as a repo, a readme file was written.
 
-_Reading_
+__Reading__
 
 https://qz.com/968101/how-elon-musk-learns-faster-and-better-than-everyone-else/
 
-Notes:
+_Notes:_
 * Success of expert/generalists over time. These individuals exist.
 * Read. A lot. Broadly. Take notes.
 * Don't waste time, work very hard. Get off social media. Never read the same thing twice (special note to self -reddit is particularly bad here, scrolling endlessly and reading comments is a huge waste of time)
