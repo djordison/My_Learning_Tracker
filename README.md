@@ -125,3 +125,16 @@ IMDB ratings tend to have a heavy central tendency around 71%, with a std of 7.3
 Metacritic ratings tend to have a more widely distributed score with a mean of 63%, and a std of 15.6. Metacritic ratings also shows relatively few ratings in the areas of 50% and 75%. Perhaps this is due to a tendency to avoid round quartile scores.
 
 Project was uploaded into Github as a repo, a readme file was written.
+
+_Reading_
+
+https://qz.com/968101/how-elon-musk-learns-faster-and-better-than-everyone-else/
+
+Notes:
+*Success of expert/generalists over time. These individuals exist.
+*Read. A lot. Broadly. Take notes.
+*Don't waste time, work very hard. Get off social media. Never read the same thing twice (special note to self -reddit is particularly bad here, scrolling endlessly and reading comments is a huge waste of time)
+*Learning transfer is critical. Take Kernel and apply to real world.
+*Step 1: deconstruct knowledge into principles. Semantic tree building.
+*Step 2: reconstruct principles into a new field. AI, tech, physics and engineering into: aerospace, auto, trains, aviation, paypal, openAI.
+*What does this remind me of, why does it remind me of it?
