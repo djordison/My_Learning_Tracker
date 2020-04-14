@@ -141,3 +141,10 @@ _Notes:_
 * Step 2: reconstruct principles into a new field. 
 *   AI, tech, physics and engineering into: aerospace, auto, trains, aviation, paypal, openAI.
 * What does this remind me of, why does it remind me of it?
+
+### 2020/04/14
+
+Completed miniproject/tutorial on sns heatmaps for correlation covariance matrices. 
+
+https://towardsdatascience.com/annotated-heatmaps-in-5-simple-steps-cc2a0660a27d. Generating boolean mask for upper triangle, as well as dummy encoding for categorical variables. Seems quite eaasy and quick, as well as a good useful tool.
+
