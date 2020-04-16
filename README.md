@@ -150,7 +150,7 @@ https://towardsdatascience.com/annotated-heatmaps-in-5-simple-steps-cc2a0660a27d
 
 ### 2020/04/15-16
 
-Multiple day project uploaded to Github.
+Multiple day project committed to Github.
 
  __Covid_19_Choropleth_Canada__
 
