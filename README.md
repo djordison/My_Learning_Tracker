@@ -148,3 +148,42 @@ Completed miniproject/tutorial on sns heatmaps for correlation covariance matric
 
 https://towardsdatascience.com/annotated-heatmaps-in-5-simple-steps-cc2a0660a27d. Generating boolean mask for upper triangle, as well as dummy encoding for categorical variables. Seems quite eaasy and quick, as well as a good useful tool.
 
+### 2020/04/15-16
+
+Multiple day project uploaded to Github.
+
+ __Covid_19_Choropleth_Canada__
+
+_Goal_
+
+Generate choropleths of the spread of Covid-19 in Canada as of 2020/04/16 for educational purposes. There is no intention of distribution.
+
+This repository included the working jupyter notebook as well as .csv files: mortality data, infection data, relational data for health regions, source .shp files and associated records.
+
+_Results_
+
+Data on infections and deaths per health region was sourced (in a precompiled state) from Github. These two sources were combined, along with census information on population per health region to calculate mortality and infection rates, and an index of health region names and ids.
+
+Goverment of Canada .shp file was sourced for creation of Choropleths.
+
+Data was cleaned/munged and cleanup of text was required to align source data for matching with .shp region ids.
+
+Current maximum infection rate was found to be 3.4/1000 persons, with a death rate of .18/1000 persons. Both infections and deaths were found to be concentrated in metropolitan areas of Vancouver, Toronto, as well as widely throughout the province of Quebec. Minimal infections and deaths are found in the more sparsely populated areas of central and western Canada.
+
+_Issues_
+
+Reporting of cases for the 3 health regions of the Fraser Valley area, as well as the 3 Vancouver Island regions are not seperated into distinct health regions but reported as a whole. Without inspecting individual cases it is difficult to report these areas accurately. These areas represent a nominal volume of cases compared to the whole of Canada.
+
+_Acknowledgements_
+
+Data was sourced from https://github.com/ishaberry/Covid19Canada (accessed 2020/04/15)
+  
+__Notes from project:__
+
+Working with multiple data sources was challenging and time intensive. A lot of effort in munging and cleaning could have been saved if all source files were collected and viewed prior to determine an efficient way of establishing a common index. Working with text with slightly different formatting and naming conventions was difficult as well.
+
+In future, would be worthwhile to generate custom .csv files for conversions and relational structures that could be reused. This is domain specific.
+
+Also found limitations with the .shp file projections as the extents of the northern regions continue to the north pole. They are not extremely visually appealing and thus would need further processing prior to wider distribution.
+
+Overall a difficult project but worthwhile.
