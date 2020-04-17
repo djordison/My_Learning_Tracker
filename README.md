@@ -187,3 +187,12 @@ In future, would be worthwhile to generate custom .csv files for conversions and
 Also found limitations with the .shp file projections as the extents of the northern regions continue to the north pole. They are not extremely visually appealing and thus would need further processing prior to wider distribution.
 
 Overall a difficult project but worthwhile.
+
+### 2020/04/17
+
+Further development of covid choropleth workbook.
+
+Added dynamic collection of files directly from source Github, save local copy of dataframe and chorpleths with datestamp. Change choropleth to update scale automatically based on current upper bound of cases/deaths.
+
+Easy updates to functionality, and now can track progress over time. May have issues with scales on choropleths if wanted to build a live version. Would need to consider using potential upper bounds to start with if planning a live version.
+
