@@ -196,3 +196,6 @@ Added dynamic collection of files directly from source Github, save local copy o
 
 Easy updates to functionality, and now can track progress over time. May have issues with scales on choropleths if wanted to build a live version. Would need to consider using potential upper bounds to start with if planning a live version.
 
+### 2020/04/18
+
+Worked on creating an animated scatter plot of child mortality rates vs GDP using matplotlib.animation. Sourced data, cleaned, prepped, and can plot a single instance. Ran out of time to learn animated, will review docs tomorrow. Seems fairly straightforward, but may need to modify structure of dataframes.
