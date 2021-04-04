@@ -11,14 +11,17 @@ Completed work project transition, for employer M, starting in July 2020 and com
 Supervised learning with a target of NaCl content in finished product. Process of interest is a multi-stage industrial crystallization process, in which 4 XLR (crystallizer) vessels each product a slurry output with a target NaCl value. 
 
 **Process**
+
 An industrial processing operation consisting of 4 large XLRs, interlinked and operating in sequence. Each XLR takes an input stream, produces a slurry (containing the target variable) with the bulk of hte process fluid continuing for further rework in subsequent XLRs. The slurry ouputs of XLRs 1, 2 and 3 are input into the both of XLR4 along with the mother liquor for final processing. There are significant processes operating both upstream, alongside, and downstream of the vessels.
 
 **Data**
+
 Two primary components: 
-1. Multiple (200+) continously monitored process 'tags' such as flow, chemistry, or other measurements of physical or chemical processes. Some shared between vessels, others unique.
-2. Labelled target data which is sampled with analytical evaluation of the NaCl content. This analysis is done asynchronously, samples are collected only 1/week.
+  1. Multiple (200+) continously monitored process 'tags' such as flow, chemistry, or other measurements of physical or chemical processes. Some shared between vessels, others unique.
+  2. Labelled target data which is sampled with analytical evaluation of the NaCl content. This analysis is done asynchronously, samples are collected only 1/week.
 
 **Business case**
+
 Implementation of predictive models would allow for tighter operational loop for improved operations. Currently the labelled target attribute is only availalbe 1/week for each vessel. The operational state is self-correlated only within 3hrs.
 
 Additionally, a lot of the value of the project was in the development of the technology stack within M, and the process of building and operationalizing the first ML models. This was the first of any project of this type within the org, and predates the development of a corporate datalake.
@@ -38,11 +41,13 @@ PowerBI: Training ouput for local Datascientist use
 #### Implementation
 
 **Supplemental work**
+
 Two supplmental sampling campaigns were completed:
-1. Samples taken on a 1hr strict schedule for 96 hrs for a single XLR vessel. This enables ARIMA analysis to be complete (data was stationary), with a self-correlation of 3hrs to be found. This allows for aggregation of the continous tags to be done to a 3hr interval to reduce the volume of the training set.
-2. Samples taken on a 3hr loose schedule during a 20 day long Design Of Experiment (DOE) on all 4 XLRs. This leads to an increased density of training data, as well as additional data of conditions beyond normal operational setpoints.
+  1. Samples taken on a 1hr strict schedule for 96 hrs for a single XLR vessel. This enables ARIMA analysis to be complete (data was stationary), with a self-correlation of 3hrs to be found. This allows for aggregation of the continous tags to be done to a 3hr interval to reduce the volume of the training set.
+  2. Samples taken on a 3hr loose schedule during a 20 day long Design Of Experiment (DOE) on all 4 XLRs. This leads to an increased density of training data, as well as additional data of conditions beyond normal operational setpoints.
 
 **Data prep**
+
 Continous and analytical data was queried using SQL into the RapidMiner desktop ap, queries seperated by month and lagged 1.5 minutes between queries to avoid server issues. Aggregate of files into local Bronze datasets.
 
 Analysis of timeseries data done for missing data, cross correlation between variables using Python/R scripts. Exclusion lists generated from these and embedded into Rapidminer for ETL pipeline.
@@ -54,6 +59,7 @@ One-hot encoding of a few attributes were completed: Vessel status (most value t
 Significant effort went into evaluation (manually and automatically) of appropriate training sets for each vessel to reflect operational, controls, and capital project changes which have occured in time. It was found to be exceptionally important to model accuracy that the training set reflects the current operational paradigm. Training and test split were done in blocks of time which were explicity set.
 
 **Model control/data engineering**
+
 Python script used to generate a dataframe of various configurations to generate for use in the Rapidminer modelling processes. This enabled things such as model type, sycronization of data, data prep Regex config, training/test split, preprocessing, postprocessing, generation of lagged/lead, moving averages, and other features to be turned off and on. Total of ~20 model features. The build of each configuration was explicit in name convention. As well as user specified configurations, randomly seeded permutations of all options can be generated to allow for genetic selection of useful features.
 
 Multiple model types run for each configuration with data prep output, model results, and scoring savings into a Silver datastructure, as well as output via csv for PowerBi modelops analysis.
@@ -61,6 +67,7 @@ Multiple model types run for each configuration with data prep output, model res
 Once a model and configuration is selected for deployment, a Gold datastructure is generated. This can be deployment to either Dev or Prod environments of the Rapidminer server, which runs on a schedule and populates the operational interface.
 
 **Models**
+
 Different models were found to function best based on operational scenarios. Several model types were trained and evaluated, with types Gradient Boosted Trees working in temporality earlier processes, and Generalized Linear Models working the temporaly later processes. A stacked model type of these worked well in intermediate vessels. Evaluation of other model types were completed (including Deep learning, Random Forest, SVM, and others). Deep learning appeared to have promise, however the sparsity of the training set hampered performance. Regardless, the accuracy of the deployed 4 models was found to be quite high.
 
 For each vessel, additional models were generated which target the future value of the NaCl value a single instance into the future (3hrs). This was done via building of a submodel stack in which each input tag had a model associated to it. Overall the value of this approach was found to be not high, and this aspect of the project was abandoned. Accuracy could not be achieved, and there was little operational value. The move from 1/wk avaialability of the target variable to every 3 hrs realized the bulk of the value.
@@ -70,14 +77,17 @@ Various model pre-processing strategies were implemented (Kmeans, ICA, PCA) in a
 During model development, an emphasis was placed on early testing with operations, which was helpful in determining additional data prep and transformation steps required. Pre-operational interface, models were trained overnight on the most recent data, and reviewed via screen share of a local PowerBI report, with a transition to review of the intra-net model output site roughly halfway through the project.
 
 **Sustainability**
+
 In order to ensure operational sustainability of the deployed projects, two methods of model evaluation were designed. One is color coding of the output data in the operations interface based on statistical methods of the training data set. This provides information on the value of the training set for a given prediction. The second is the use of autoencoders using H2O package in Python to determine if any change is present in the last 30 days of training data vs historical training set. This is operationalized via a Python script in RapidMiner.
 
 Tracking of use and feedback from operations is collected voluntarily each day when models are reviewed. Compliance with use and provision of feedback continues to be high.
 
 **Change Management**
+
 Significant efforts were complete to manage change at the site and corporate level, as this was the first attempt at a machine learning install within M. Overall this worked well, with operations being involved early and throughout the process. Additional efforts were made to be open about failures and learnings to the site and others.
 
 **Project Outcomes**
+
 Models were succesfully generated for all 4 XLR vessels, with the data ETL, training, and deployment processes all moved to server operations. Site stakeholder operations are using the outputs daily, and continue to provide feedback. Site management is satisfied with the project, and M has now built an integrated ML team which will lead these types of projects in the org. Currenly, additional resources are being onboarded, and evaluation of the next candidate projects is underway.
 
 
