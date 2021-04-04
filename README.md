@@ -6,7 +6,7 @@ Log of professional development and data science skills, learning, resources, ar
 
 Completed work project transition, for employer M, starting in July 2020 and completing with transition of project to sustaining resources. I functioned as main model lead, designer of DOE/sampling, process SME, and primary contact with operations.
 
-#### Project Overview
+### Project Overview
 
 Supervised learning with a target of NaCl content in finished product. Process of interest is a multi-stage industrial crystallization process, in which 4 XLR (crystallizer) vessels each product a slurry output with a target NaCl value. 
 
@@ -26,7 +26,7 @@ Implementation of predictive models would allow for tighter operational loop for
 
 Additionally, a lot of the value of the project was in the development of the technology stack within M, and the process of building and operationalizing the first ML models. This was the first of any project of this type within the org, and predates the development of a corporate datalake.
 
-#### Project Architecture/Stack
+### Project Architecture/Stack
 
 Data: SQL Wonderware source (Azure Datalake available but not enabled)
 ETL: RapidMiner desktop, embedded Python scripts
@@ -38,7 +38,7 @@ Deployment: RapidMiner AI hub, WebAPI for automated retraining/redeployment
 Model output: Operations interface webservice via intraweb
 PowerBI: Training ouput for local Datascientist use
 
-#### Implementation
+### Implementation
 
 **Supplemental work**
 
@@ -86,7 +86,7 @@ Tracking of use and feedback from operations is collected voluntarily each day w
 
 Significant efforts were complete to manage change at the site and corporate level, as this was the first attempt at a machine learning install within M. Overall this worked well, with operations being involved early and throughout the process. Additional efforts were made to be open about failures and learnings to the site and others.
 
-**Project Outcomes**
+### Project Outcomes
 
 Models were succesfully generated for all 4 XLR vessels, with the data ETL, training, and deployment processes all moved to server operations. Site stakeholder operations are using the outputs daily, and continue to provide feedback. Site management is satisfied with the project, and M has now built an integrated ML team which will lead these types of projects in the org. Currenly, additional resources are being onboarded, and evaluation of the next candidate projects is underway.
 
