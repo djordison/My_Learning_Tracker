@@ -199,3 +199,11 @@ Easy updates to functionality, and now can track progress over time. May have is
 ### 2020/04/18
 
 Worked on creating an animated scatter plot of child mortality rates vs GDP using matplotlib.animation. Sourced data, cleaned, prepped, and can plot a single instance. Ran out of time to learn animated, will review docs tomorrow. Seems fairly straightforward, but may need to modify structure of dataframes.
+
+### 2021/04/04
+
+Completed work project transition, for employer M, starting in July 2020 and completing with transition of project to sustaining resources.
+
+#### Project Overview
+
+
