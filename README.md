@@ -9,6 +9,8 @@ Purchase of new Macbook Air M1, wrote google drive document on setup of new mach
 
 Setup git folder structure for exercises for https://www.amazon.ca/gp/product/1492032646/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1.
 
+Configured dotfiles on git.
+
 ### 2021/04/04
 
 Completed work project transition, for employer M, starting in July 2020 and completing with transition of project to sustaining resources. I functioned as main model lead, designer of DOE/sampling, process SME, and primary contact with operations.
