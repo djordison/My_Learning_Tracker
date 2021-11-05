@@ -3,9 +3,11 @@
 Log of professional development and data science skills, learning, resources, article/book notes highlights, and anything else noteworthy. Reverse chronological order.
 
 
-### 2021/011/05
+### 2021/11/05
 
 Purchase of new Macbook Air M1, wrote google drive document on setup of new machine for data science use: https://docs.google.com/document/d/12b7zky7er_mWstumzcEIfo-DiNTpeyDT2edFJJHvouQ/edit
+
+Setup git folder structure for exercises for https://www.amazon.ca/gp/product/1492032646/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1.
 
 ### 2021/04/04
 
