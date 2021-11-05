@@ -2,6 +2,11 @@
 
 Log of professional development and data science skills, learning, resources, article/book notes highlights, and anything else noteworthy. Reverse chronological order.
 
+
+### 2021/011/05
+
+Purchase of new Macbook Air M1, wrote google drive document on setup of new machine for data science use: https://docs.google.com/document/d/12b7zky7er_mWstumzcEIfo-DiNTpeyDT2edFJJHvouQ/edit
+
 ### 2021/04/04
 
 Completed work project transition, for employer M, starting in July 2020 and completing with transition of project to sustaining resources. I functioned as main model lead, designer of DOE/sampling, process SME, and primary contact with operations.
