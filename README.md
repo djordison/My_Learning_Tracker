@@ -11,6 +11,8 @@ Setup git folder structure for exercises for https://www.amazon.ca/gp/product/14
 
 Configured dotfiles on git.
 
+Setup a clone of the handson-ml2 repo using instructions here: https://stackoverflow.com/questions/18200248/cloning-a-repo-from-someone-elses-github-and-pushing-it-to-a-repo-on-my-github. Also found out that I needed to generate a GitHub personal access token.
+
 ### 2021/04/04
 
 Completed work project transition, for employer M, starting in July 2020 and completing with transition of project to sustaining resources. I functioned as main model lead, designer of DOE/sampling, process SME, and primary contact with operations.
