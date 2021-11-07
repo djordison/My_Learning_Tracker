@@ -2,6 +2,9 @@
 
 Log of professional development and data science skills, learning, resources, article/book notes highlights, and anything else noteworthy. Reverse chronological order.
 
+### 2021/11/06
+
+Chapter 1 of handson-ml2 completed, run notebooks locally and through google colab. Answered excercise questions and commited to git.
 
 ### 2021/11/05
 
