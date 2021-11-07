@@ -2,6 +2,18 @@
 
 Log of professional development and data science skills, learning, resources, article/book notes highlights, and anything else noteworthy. Reverse chronological order.
 
+### 2021/11/07
+
+Started to build out my mind map for machine learning, linking to resources. TODO: replace links with affiliate or smile.amazon.com links if released out into the world.
+
+https://whimsical.com/machine-learning-8hEW6i6w5MB1LQkF8fWRTY
+
+Read https://developers.google.com/machine-learning/guides/rules-of-ml/.
+Items of note:
+**Do machine learning like the great engineer you are, not the great machine learning expert you aren't**
+- Always start with metrics (design and implement)
+- Simple heuristics >> Machine Learning >> Complex heuristics
+
 ### 2021/11/06
 
 Chapter 1 of handson-ml2 completed, run notebooks locally and through google colab. Answered excercise questions and commited to git.
