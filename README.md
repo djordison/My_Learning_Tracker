@@ -13,6 +13,7 @@ Items of note:
 **Do machine learning like the great engineer you are, not the great machine learning expert you aren't**
 - Always start with metrics (design and implement)
 - Simple heuristics >> Machine Learning >> Complex heuristics
+- Start with simple models and get the infrastructure right
 
 ### 2021/11/06
 
