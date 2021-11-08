@@ -8,12 +8,16 @@ Started to build out my mind map for machine learning, linking to resources. TOD
 
 https://whimsical.com/machine-learning-8hEW6i6w5MB1LQkF8fWRTY
 
+Completed Google Introduction to machine learning problem framing: https://developers.google.com/machine-learning/problem-framing
+
 Read https://developers.google.com/machine-learning/guides/rules-of-ml/.
 Items of note:
 **Do machine learning like the great engineer you are, not the great machine learning expert you aren't**
 - Always start with metrics (design and implement)
 - Simple heuristics >> Machine Learning >> Complex heuristics
 - Start with simple models and get the infrastructure right
+- Carefully evaluate the inputs, the outputs, and exactly what decision will be made based on assumed success.
+- Never build Machine Learning solutions unless it is needed. Always defer to simpler solutions if they are good enough.
 
 ### 2021/11/06
 
